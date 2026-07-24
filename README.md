@@ -4,7 +4,7 @@ Interactive multi-table e-commerce analytics dashboard built with Streamlit and 
 
 An interactive multi-table analytics dashboard built with Streamlit and Plotly, analyzing e-commerce performance across customers, orders, products, and order line items for a fictional retail company, BrightMart.
 
-🔗[Dashboard Preview](add-a-screenshot-path-here.png)
+🔗[Dashboard Preview](https://github.com/sarat32-Data/Python-Project---Brightmart-analytics-dashboard-Pandas-Numpy-Plotly-Streamlit-/blob/main/Dashboard_Preview.png)
 
 ## Overview
 
