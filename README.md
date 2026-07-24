@@ -10,6 +10,46 @@ An interactive multi-table analytics dashboard built with Streamlit and Plotly, 
 
 BrightMart's sales and operations team needed a way to explore performance without writing SQL queries every time. This project takes four raw CSV extracts, joins them into a single analysis-ready dataset, and presents it through a fully interactive, filterable dashboard.
 
+## Getting Started Instructions: how to run the file (app.py) to see the Dashboard.
+
+Follow these steps to run the dashboard on your own machine.
+
+### 1. Get all the project files into one folder
+
+brightmart-analytics-dashboard/
+├── app.py
+├── queries.py
+├── customers.csv
+├── orders.csv
+├── order_items.csv
+├── products.csv
+├── requirements.txt
+
+> ⚠️ The CSV files must be in the **same folder** as `app.py` — the app reads them using relative paths (e.g. `pd.read_csv("customers.csv")`).
+
+### 2. Install the required libraries
+
+If you already have these libraries (Pandas, Numpy, Plotly, Streamlit) installed, this command will simply confirm they're up to date and skip reinstalling.
+
+### 3. Run the app
+
+```in terminal write:
+python -m streamlit run app.py
+```
+
+> **Note (Windows users):** use `python -m streamlit run app.py` instead — this runs Streamlit through Python directly and avoids common PATH issues on Windows.
+
+### 4. Open the dashboard
+
+The terminal will print a local URL, typically:
+
+Local URL: http://localhost:8501
+It should open automatically in your default browser. If not, copy that URL and paste it into any browser manually.
+
+### 5. Stop the app
+When you're done, go back to the terminal and press `Ctrl + C` to stop the Streamlit server.
+
+
 ## Tech Stack
 
 - **Python** — data processing
